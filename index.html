@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <meta http-equiv="refresh" content="30"> -->
     <meta name="description" content="Topa sair cmg?" />
     <meta name="keywords" content="Topa sair cmg?" />
     <link rel="stylesheet" href="style.css" />
@@ -12,14 +11,16 @@
   </head>
   <div class="container">
     <header>
-      <p>Topa sair cmg?</p>
+      <!-- Convite, Pedido etc... -->
+      <p>Topa sair cmg?&#128525;</p>
     </header>
     <body>
       <div class="input__container">
-        Vamos assistir o filme da Barbie juntos?
+        <!-- Texto de apresentação -->
+        <p>Vamos assistir o filme da <span>Barbie</span> juntos?</p>
         <div>
-          <button>SIM</button>
-          <button>NÃO</button>
+          <button id="yes">SIM</button>
+          <button class="runnawayButton">NÃO</button>
         </div>
       </div>
     </body>
@@ -27,4 +28,6 @@
       <p>2023 todos direitos reservados</p>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
 </html>

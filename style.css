@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/barbie');
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +51,7 @@ body {
   align-self: center;
 
   text-align: center;
-  color: rgb(239, 25, 47);
+  color: rgb(72, 72, 72);
   font-size: 2rem;
   letter-spacing: 2px;
   font-weight: bold;
@@ -65,6 +68,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.input__container p > span {
+  color: rgb(228, 15, 182);
+  font: 2.5rem 'Barbie';
 }
 
 .input__container > div > button {
